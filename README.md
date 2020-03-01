@@ -1,68 +1,150 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Ravenous
 
-## Available Scripts
+## My 1st React.js project from Codecademy
 
-In the project directory, you can run:
+### Part 1: First Commit - Mar 1, 2020
 
-### `npm start`
+This is my first React.js project from my [Create a Front-End App with React](https://www.codecademy.com/learn/paths/build-web-apps-with-react), Section 5, Introduction to React that I am building on my computer and pushing to GitHub. I am using VS Code as my IDE. The following are the instructions I am following from Codecademy's website:
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Create Project & Components
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+Welcome to the first installment of the Ravenous project! Over the next couple of weeks, you’ll build a website called “Ravenous”, a Yelp-like clone.
 
-### `npm test`
+In total, there will be four parts to this project:
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+  * Creating Static Components
+  * Passing Information to Components
+  * Setting the State of Ravenous Components
+  * Interacting with the Yelp API
+  
+Today, you will start by building the first part of Ravenous: 
+### Creating Static Components.
 
-### `npm run build`
+Here’s a quick overview of how Ravenous should function:
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+ * As a user, I should be able to search for restaurants
+ * As a user, I should be able to view a list of restaurants returned by the Yelp API
+ * As a user, I should be able to sort through restaurants using a filter
+ 
+The four projects will test your knowledge of JavaScript and React, all with the goal of building a Yelp-like clone. If you want to get a feel for what Ravenous can be, visit the Yelp website and search for restuarants in your area.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+Finally, a few notes before getting started:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+ * In each project, you’ll be presented with the intended, final outcome (of that project) in the Codecademy browser component.
+ * You should expect to spend more than 1 day on this specific project. It’s the base of the entire app, and it will likely take a few days to complete this project. It’s OK if it is not all finished in one day.
+ * If you don’t understand how to implement a certain part of the project, we’ll provide guidance as needed. However, you should expect to search Codecademy for the exercises that will provide you with the relevant information.
+ * You should expect to complete all four Ravenous projects on your personal computer using your preferred tools (terminal, text editors, etc.).
+ 
+### Part 1 Instructions:
 
-### `npm run eject`
+### Create a React App
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- [x] **1.** Start by creating a React app using the `create-react-app` package in your preferred terminal. The name of your app should be `ravenous`.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- [x] **2.** In another terminal window, `cd` into the `Ravenous` directory and type the following command: 
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+      `npm start`
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+     This command will start a development server and open up a preview of your app in a browser tab. As you build, the preview will automatically update when you save your work. This is a great way of seeing your progress in real-time.
 
-## Learn More
+- [x] **3.** Replace the current favicon located at **public/favicon.ico** with [this icon](https://s3.amazonaws.com/codecademy-content/programs/react/ravenous/ravenous_favicon.ico). Make sure you save the new image as **favicon.ico**.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Add a CSS Reset
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- [x] **4.** By default, `create-react-app` will generate a sample application. We’ll need to add a reset.css file to ensure our app is styled the same in every browser.
 
-### Code Splitting
+     `cd` into the newly created `Ravenous` directory. Take a look at the default folder structure generated by `create-react-app`. Use the command line to create a new file called **reset.css** in the **public/** directory. Copy and paste [this CSS](https://s3.amazonaws.com/codecademy-content/programs/react/ravenous/reset.css) into **reset.css**.
+     
+     
+### Part 2 Instructions:
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+### Passing Information
 
-### Analyzing the Bundle Size
+Welcome to the second part of the Ravenous project! Take a minute to review what you accomplished in the first part of this project. You:
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+ * Used `create-react-app` to start your project
+ * Built all of the components you’ll need for the remainder of the project
+ * Simulated what Ravenous should look like after returning search results
+ 
+In this project, you’ll complete the second part of Ravenous: **Passing Information to Components**.
 
-### Making a Progressive Web App
+So far, you’ve hard coded business information and rendered it manually. Now we’ll focus on how information (like business information) can pass from component to component with less hard coding. This is crucial as we build towards the goal of constructing a Yelp-like clone.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+A few notes before getting started:
 
-### Advanced Configuration
+ * You should expect to spend more than 1 day on this specific project. It’s OK if it is not all finished in one day.
+ * If you don’t understand how to implement a certain part of the project, we’ll provide guidance as needed. However, you should expect to search Codecademy for the exercises that will provide you with the relevant information.
+ 
+- [x] **1.** Future parts of this project will implement the Yelp API. That specific functionality will require that you pass information from the Yelp API to multiple components. In this project, you’ll build the initial portions that will set your project up for this functionality in the future.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+- [x] **2.** In another terminal window, `cd` into the `Ravenous` directory and type the following command:
 
-### Deployment
+     `npm start`
+     
+     This command will start a development server and open up a preview of your app in a browser tab. As you build, the preview will automatically update when you save your work. This is a great way of seeing your progress in real-time.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+### Create businesses Array
 
-### `npm run build` fails to minify
+- [x] **3.** When the Yelp API is implemented, a list of businesses will be returned to **App.js**. Therefore, we should create a hard-coded list of businesses there and then pass them to the appropriate components.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+     Open **Business.js**. Cut the entire `business` object and paste it into **App.js**.
+
+     Make sure to paste it right after the imports and above the `App` class declaration.
+     
+- [x] **4.** Take a look at **BusinessList.js**. What do you notice about the contents of the `BusinessList` div?
+
+     There’s a lot of repetition here. Specifically, `the <Business />` component is repeated six times. Recall that we manually did this in the `BusinessList` component so that we can simulate a list of returned business. We’ll refactor this to remove some of the component repetition.
+     
+     Go back to **App.js**. Under the `business` object, create a `businesses` array. The array should hold six references to the `business` object.
+     
+- [x] **5.** Remember, our goal is to remove the repetition of components inside of the `<BusinessList />` component. Let’s add some more functionality to aid this goal.
+
+     In **app.js**, add a `businesses` property to the `<BusinessList />` component inside of the `render()` method. Set the property equal to the `businesses` *array*. (Don’t forget your curly braces!)
+     
+### Add Functionality to the BusinessList Prop
+
+- [x] **6.** When the `businesses` prop is set in the `BusinessList` component, there should be some functionality behind it. Specifically, it should iterate through the `businesses` array. Recall that you created an array of businesses in **App.js**.
+
+     Open **BusinessList.js**. Remove everything inside of the `BusinessList` div (the repeated components).
+
+     Inside of the `BusinessList` div, access the `businesses` prop and call the `.map()` method on it.
+     
+- [x] **7.** Inside of the `map()` method, pass a callback function with one parameter called `business`.
+
+- [x] **8.** The callback function should return a `<Business />` component. The returned `<Business />` should have a property called `business`. Set the property equal to the parameter of the callback function. (Don’t forget your curly braces and semicolon!)
+
+### Modifying Business.js using Props
+
+- [x] **9.** Let’s review what you’ve done so far:
+
+     * Moved business information to **App.js**
+     * Created a list of businesses using an array, rather than repeating components in **BusinessList.js**
+     * Built functionality for the `BusinessList` component to iterate through the array and return `Business` components 
+     
+     You’re just about done! With the changes you’ve made, however, the `Business` component will have to access business information differently. This is what you’ll build next.
+     
+     Open **Business.js**. What do you notice about how information is accessed inside of the `return` statement?
+     
+     Because the `business` object was removed, statements like the following no longer have any meaning:
+     
+     `{business.imageSrc}`
+     
+     Business information now has to be accessed via the `business` prop you set in **BusinessList.js**. Modify all statements (like the one in the example above) by prepending them with `this.props`.
+     
+- [x] **10.** Congratulations! You completed the second part of the Ravenous project. Let’s briefly review what you did:
+
+     * Moved business information to the container component (`App`)
+     * Passed information from parent components (`App`) to child components (`BusinessList`, `Business`)
+     
+     This is typical of the flow of information in React apps. You’ll continue to build on this structure as you move on to future parts of this project.
+     
+     Finally, reflect on the knowledge you used in this project. As you do so, consider the following questions:
+     
+     * The “Let’s Go” button doesn’t do anything at the moment. How might you simulate a query to the Yelp API?
+     * A user may decide to search with a different sorting option (for example, “Highest Rated”, or “Most Reviewed”). How can you handle this change in state using React?
+     
+We’ll expand the search bar in the coming weeks to address the questions above (and more).
+     
+     
+
+
