@@ -4,7 +4,7 @@
 
 ### Part 1: First Commit - Mar 1, 2020
 
-This is my first React.js project from my [Create a Front-End App with React](https://www.codecademy.com/learn/paths/build-web-apps-with-react), Section 5, Introduction to React that I am building on my computer and pushing to GitHub. I am using VS Code as my IDE. The following are the instructions I am following from Codecademy's website:
+This is my first React.js project from my [Create a Front-End App with React](https://www.codecademy.com/learn/paths/build-web-apps-with-react), **Section 5, Introduction to React** that I am building on my computer and pushing to GitHub. I am using VS Code as my IDE. The following are the instructions I am following from Codecademy's website:
 
 ### Create Project & Components
 
@@ -144,6 +144,10 @@ A few notes before getting started:
      * A user may decide to search with a different sorting option (for example, “Highest Rated”, or “Most Reviewed”). How can you handle this change in state using React?
      
 We’ll expand the search bar in the coming weeks to address the questions above (and more).
+
+### Part 2: Second Commit - Mar 1, 2020
+
+Today, I completed **Part 2** of the project and pushed the 2nd commit to my GitHub **ravenous** repository. 
      
      
 
