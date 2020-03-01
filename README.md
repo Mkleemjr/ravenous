@@ -34,6 +34,12 @@ Finally, a few notes before getting started:
  * You should expect to spend more than 1 day on this specific project. It’s the base of the entire app, and it will likely take a few days to complete this project. It’s OK if it is not all finished in one day.
  * If you don’t understand how to implement a certain part of the project, we’ll provide guidance as needed. However, you should expect to search Codecademy for the exercises that will provide you with the relevant information.
  * You should expect to complete all four Ravenous projects on your personal computer using your preferred tools (terminal, text editors, etc.).
+ 
+## Part 1 Instructions:
+
+### Create a React App
+
+[] ###1.### Start by creating a React app using the `create-react-app` package in your preferred terminal. The name of your app should be `ravenous`.
 
 
 
