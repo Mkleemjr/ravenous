@@ -90,6 +90,12 @@ A few notes before getting started:
      Open **Business.js**. Cut the entire `business` object and paste it into **App.js**.
 
      Make sure to paste it right after the imports and above the `App` class declaration.
+     
+- [] **4.** Take a look at **BusinessList.js**. What do you notice about the contents of the `BusinessList` div?
+
+     There’s a lot of repetition here. Specifically, `the <Business />` component is repeated six times. Recall that we manually did this in the `BusinessList` component so that we can simulate a list of returned business. We’ll refactor this to remove some of the component repetition.
+     
+     Go back to **App.js**. Under the `business` object, create a `businesses` array. The array should hold six references to the `business` object.
 
 
 
