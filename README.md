@@ -108,5 +108,13 @@ A few notes before getting started:
      Open **BusinessList.js**. Remove everything inside of the `BusinessList` div (the repeated components).
 
      Inside of the `BusinessList` div, access the `businesses` prop and call the `.map()` method on it.
+     
+- [x] **7.** Inside of the `map()` method, pass a callback function with one parameter called `business`.
+
+- [x] **8.** The callback function should return a `<Business />` component. The returned `<Business />` should have a property called `business`. Set the property equal to the parameter of the callback function. (Don’t forget your curly braces and semicolon!)
+
+### Modifying Business.js using Props
+
+- [x] **9.** Let’s review what you’ve done so far:
 
 
