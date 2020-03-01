@@ -96,7 +96,10 @@ A few notes before getting started:
      There’s a lot of repetition here. Specifically, `the <Business />` component is repeated six times. Recall that we manually did this in the `BusinessList` component so that we can simulate a list of returned business. We’ll refactor this to remove some of the component repetition.
      
      Go back to **App.js**. Under the `business` object, create a `businesses` array. The array should hold six references to the `business` object.
+     
+- [x] **5.** Remember, our goal is to remove the repetition of components inside of the `<BusinessList />` component. Let’s add some more functionality to aid this goal.
 
+     In **app.js**, add a `businesses` property to the `<BusinessList />` component inside of the `render()` method. Set the property equal to the `businesses` *array*. (Don’t forget your curly braces!)
 
 
 
