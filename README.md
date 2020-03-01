@@ -37,9 +37,9 @@ Finally, a few notes before getting started:
  
 ### Part 1 Instructions:
 
-#### Create a React App
+### Create a React App
 
-- [ ] ### 1. Start by creating a React app using the `create-react-app` package in your preferred terminal. The name of your app should be `ravenous`.
+- [x] 1. Start by creating a React app using the `create-react-app` package in your preferred terminal. The name of your app should be `ravenous`.
 
 
 
