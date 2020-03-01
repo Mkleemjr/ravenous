@@ -41,6 +41,10 @@ Finally, a few notes before getting started:
 
 - [x] 1. Start by creating a React app using the `create-react-app` package in your preferred terminal. The name of your app should be `ravenous`.
 
+- [x] 2. In another terminal window, `cd` into the `Ravenous` directory and type the following command: `npm start`
+
+This command will start a development server and open up a preview of your app in a browser tab. As you build, the preview will automatically update when you save your work. This is a great way of seeing your progress in real-time.
+
 
 
 
