@@ -100,7 +100,13 @@ A few notes before getting started:
 - [x] **5.** Remember, our goal is to remove the repetition of components inside of the `<BusinessList />` component. Let’s add some more functionality to aid this goal.
 
      In **app.js**, add a `businesses` property to the `<BusinessList />` component inside of the `render()` method. Set the property equal to the `businesses` *array*. (Don’t forget your curly braces!)
+     
+### Add Functionality to the BusinessList Prop
 
+- [x] **6.** When the `businesses` prop is set in the `BusinessList` component, there should be some functionality behind it. Specifically, it should iterate through the `businesses` array. Recall that you created an array of businesses in **App.js**.
 
+     Open **BusinessList.js**. Remove everything inside of the `BusinessList` div (the repeated components).
+
+     Inside of the `BusinessList` div, access the `businesses` prop and call the `.map()` method on it.
 
 
