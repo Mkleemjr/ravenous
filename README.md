@@ -43,7 +43,7 @@ Finally, a few notes before getting started:
 
 - [x] **2.** In another terminal window, `cd` into the `Ravenous` directory and type the following command: 
 
-     `npm start`
+      `npm start`
 
      This command will start a development server and open up a preview of your app in a browser tab. As you build, the preview will automatically update when you save your work. This is a great way of seeing your progress in real-time.
 
@@ -77,7 +77,11 @@ A few notes before getting started:
  
 - [x] **1.** Future parts of this project will implement the Yelp API. That specific functionality will require that you pass information from the Yelp API to multiple components. In this project, you’ll build the initial portions that will set your project up for this functionality in the future.
 
+- [x] **2.** In another terminal window, `cd` into the `Ravenous` directory and type the following command:
 
+     `npm start`
+     
+     This command will start a development server and open up a preview of your app in a browser tab. As you build, the preview will automatically update when you save your work. This is a great way of seeing your progress in real-time.
 
 
 
