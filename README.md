@@ -39,14 +39,15 @@ Finally, a few notes before getting started:
 
 ### Create a React App
 
-- [x] 1. Start by creating a React app using the `create-react-app` package in your preferred terminal. The name of your app should be `ravenous`.
+- [x] **1.** Start by creating a React app using the `create-react-app` package in your preferred terminal. The name of your app should be `ravenous`.
 
-- [x] 2. In another terminal window, `cd` into the `Ravenous` directory and type the following command: 
+- [x] **2.** In another terminal window, `cd` into the `Ravenous` directory and type the following command: 
 
      `npm start`
 
      This command will start a development server and open up a preview of your app in a browser tab. As you build, the preview will automatically update when you save your work. This is a great way of seeing your progress in real-time.
 
+- [x] **3.** Replace the current favicon located at **public/favicon.ico** with [this icon](https://s3.amazonaws.com/codecademy-content/programs/react/ravenous/ravenous_favicon.ico). Make sure you save the new image as **favicon.ico**.
 
 
 
