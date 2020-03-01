@@ -117,9 +117,9 @@ A few notes before getting started:
 
 - [x] **9.** Let’s review what you’ve done so far:
 
-     * Moved business information to **App.js**
-     * Created a list of businesses using an array, rather than repeating components in **BusinessList.js**
-     * Built functionality for the `BusinessList` component to iterate through the array and return `Business` components 
+    * Moved business information to **App.js**
+    * Created a list of businesses using an array, rather than repeating components in **BusinessList.js**
+    * Built functionality for the `BusinessList` component to iterate through the array and return `Business` components 
      
      You’re just about done! With the changes you’ve made, however, the `Business` component will have to access business information differently. This is what you’ll build next.
      
