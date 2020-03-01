@@ -85,7 +85,7 @@ A few notes before getting started:
 
 ### Create businesses Array
 
-- [ ] **3.** When the Yelp API is implemented, a list of businesses will be returned to **App.js**. Therefore, we should create a hard-coded list of businesses there and then pass them to the appropriate components.
+- [x] **3.** When the Yelp API is implemented, a list of businesses will be returned to **App.js**. Therefore, we should create a hard-coded list of businesses there and then pass them to the appropriate components.
 
      Open **Business.js**. Cut the entire `business` object and paste it into **App.js**.
 
