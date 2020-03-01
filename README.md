@@ -83,6 +83,14 @@ A few notes before getting started:
      
      This command will start a development server and open up a preview of your app in a browser tab. As you build, the preview will automatically update when you save your work. This is a great way of seeing your progress in real-time.
 
+### Create businesses Array
+
+- [ ] **3.** When the Yelp API is implemented, a list of businesses will be returned to **App.js**. Therefore, we should create a hard-coded list of businesses there and then pass them to the appropriate components.
+
+Open **Business.js**. Cut the entire `business` object and paste it into **App.js**.
+
+Make sure to paste it right after the imports and above the `App` class declaration.
+
 
 
 
