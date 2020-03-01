@@ -87,9 +87,9 @@ A few notes before getting started:
 
 - [ ] **3.** When the Yelp API is implemented, a list of businesses will be returned to **App.js**. Therefore, we should create a hard-coded list of businesses there and then pass them to the appropriate components.
 
-Open **Business.js**. Cut the entire `business` object and paste it into **App.js**.
+     Open **Business.js**. Cut the entire `business` object and paste it into **App.js**.
 
-Make sure to paste it right after the imports and above the `App` class declaration.
+     Make sure to paste it right after the imports and above the `App` class declaration.
 
 
 
