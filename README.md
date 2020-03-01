@@ -43,7 +43,7 @@ Finally, a few notes before getting started:
 
 - [x] 2. In another terminal window, `cd` into the `Ravenous` directory and type the following command: `npm start`
 
-This command will start a development server and open up a preview of your app in a browser tab. As you build, the preview will automatically update when you save your work. This is a great way of seeing your progress in real-time.
+         This command will start a development server and open up a preview of your app in a browser tab. As you build, the preview will automatically update when you save your work. This is a great way of seeing your progress in real-time.
 
 
 
